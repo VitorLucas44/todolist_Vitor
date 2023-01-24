@@ -97,6 +97,7 @@ form button:hover {
 .completed {
     text-decoration: line-through;
     opacity: 0.5;
+    background-color: green;
 }
 
 .fall {
@@ -140,4 +141,20 @@ select {
 .select:hover::after {
     background: #c20000;
     color: #16166f;
+}
+.modify-btn{
+    background: yellow;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.save-btn{
+    background: yellow;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
 }
